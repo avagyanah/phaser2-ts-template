@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "es6",
+    "target": "es5",
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "declaration": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "noImplicitAny": true,
+    "isolatedModules": false,
+    "allowSyntheticDefaultImports": true,
+    "lib": ["dom", "es2015.promise", "es5"]
+  },
+  "files": [
+    "./node_modules/phaser-ce/typescript/pixi.comments.d",
+    "./node_modules/@orange-games/phaser-super-storage/build/phaser-super-storage.d.ts",
+    "./node_modules/@orange-games/phaser-nineslice/build/phaser-nineslice.d.ts"
+  ]
+}
